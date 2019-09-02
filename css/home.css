@@ -1,0 +1,89 @@
+header{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+           
+    }
+    header ul li  {
+        display: inline;
+        font-size: 25px;
+        padding: 50px ;     
+    }
+    
+    header ul li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+    }
+    header ul li a:hover{
+        color:red ;
+    }
+    header img {
+        width: 50px;
+        height: 50px;
+        display: flex;
+      justify-content: flex-start;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    
+        
+    }
+body{
+    margin: 0px;
+    background-image:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),Linear-gradient(127deg, black, black 70.71%),Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+} 
+
+.bigpicture img{
+    width: 100%;
+    height: 900px;
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    
+}
+
+
+.picture img{
+    height: 250px;
+    width: 250px;
+    padding: 15px 30px;
+  
+}
+
+.threeimage {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+   
+}
+.viewmore{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 18px;
+}
+.viewmore a {
+    text-decoration:none;
+    color:dodgerblue 
+}
+.viewmore a:hover{
+    text-decoration: underline;
+    color: blue
+}
+.underhr{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.videoplace{
+    display: flex;
+    justify-content: center;
+}

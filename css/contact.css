@@ -1,0 +1,81 @@
+header{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+           
+    }
+    header ul li  {
+        display: inline;
+        font-size: 25px;
+        padding: 50px ;     
+    }
+    
+    header ul li a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+    }
+    header ul li a:hover{
+        color:red ;
+    }
+    header img {
+        width: 50px;
+        height: 50px;
+        display: flex;
+      justify-content: flex-start;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    
+        
+    }
+    body{
+        margin: 0px;
+        background-image:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),Linear-gradient(127deg, black, black 70.71%),Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+        
+    } 
+    .cover{
+        background-image: url("../res/webdev3.png");
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        color: white;
+        font-size: 100px;
+
+        
+       
+    }
+    .cover h1{
+        position: absolute;
+        top: 230px;
+        left: 550px;
+        font-size: 100px;
+        text-shadow:5px 2px rgb(12, 11, 11);
+        font-family: 'Bree Serif', serif;
+        color: white;
+    }
+    .contactname{
+        color: white;
+    }
+    .submit{
+        background: skyblue;
+        color: white;
+        border-color: skyblue;
+       padding: 8px 10px;
+       border-radius: 6px;
+    }
+    .placing{
+        padding: 8px 30px;
+        border-radius: 6px;
+        display: flex;
+       justify-content: flex-start;
+    }
+    .text{
+       display: flex;
+       justify-content: flex-start;
+    }
+    .submit:hover{
+        background: cadetblue;
+        border-color: cadetblue;     
+    }
